@@ -14,8 +14,9 @@
     width: 300px;
 } */
 * {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: white;
+  font-family: 'Radio Canada', sans-serif;
 }
 body{
     background-color: #5D6D7E;
@@ -29,6 +30,8 @@ body{
   background-color: #A6ACAF;
   height: 3rem;
   align-items: center;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
 }
 .row-info:nth-child(even) {
   background-color: #5D6D7E;
@@ -46,4 +49,10 @@ body{
 }
 .small-text{
     font-size: 14px;
+}
+.carousel-control-next-icon{
+  background-color: red;
+}
+.carousel-control-prev-icon{
+  background-color: red;
 }
